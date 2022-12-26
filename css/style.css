@@ -43,14 +43,14 @@
 .text_main
 {
     width: 100%;
-    font-size: 80px;
+    font-size: 10vw;
     align-self: center;
     font-family: 'Gagalin';
 }
 .text_regular
 {
     width: 100%;
-    font-size: 50px;
+    font-size: 6vw;
     font-family: 'Nunito';
 }
 .blue{
@@ -61,7 +61,7 @@
 }
 .modil
 {
-    font-size: 20px;
+    font-size: 200%;
 }
 .btn_blue
 {
@@ -73,13 +73,13 @@
 {
     background-color: #282388;
     opacity: 0.7;
-    font-size: 30px;
+    font-size: 3vw;
     color: white;
 }
 .btn_white
 {
     background-color:#141062;
-    font-size: 30px;
+    font-size: 3vw;
     color: white;
 }
 .btn_white:hover
@@ -102,6 +102,7 @@
 }
 .myrow{
     overflow-x: scroll;
+    height: 350px;
 }
 .myrow::-webkit-scrollbar {
     width: 0;
