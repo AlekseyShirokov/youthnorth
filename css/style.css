@@ -89,17 +89,12 @@
     font-size: 30px;
     color: white;
 }
-/* .carusl{
-    display: flex;
-    width: 100%;
-    overflow-x: scroll
-}*/
 .foto_block
 {
     padding: 5px;
     margin: 5px;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
