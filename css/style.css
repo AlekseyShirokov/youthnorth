@@ -107,6 +107,16 @@
     font-size: 30px;
     color: white;
 }
+.btn_white_chk{
+    background-color:#141062;
+    color: white;
+}
+.btn_white_chk:checked
+{
+    background-color:#141062;
+    border-color: #141062;
+    color: white;
+}
 .foto_block
 {
     padding: 5px;
