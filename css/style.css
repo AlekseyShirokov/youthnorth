@@ -12,6 +12,7 @@
 }
 
 
+
 .block_blue
 {
     width: 100%;
@@ -47,17 +48,32 @@
     align-self: center;
     font-family: 'Gagalin';
 }
+.text_regular_modil
+{
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Nunito';
+    line-height: 1;
+    word-wrap: normal;
+    margin-bottom: 25px;
+}
 .text_regular
 {
     width: 100%;
     font-size: 1.5rem;
     font-family: 'Nunito';
+    line-height: 1;
+    word-wrap: normal;
+    margin-bottom: 25px;
 }
 .blue{
     color: #fff;
 }
 .white{
     color: #141062;
+}
+.group{
+    text-align: center;
 }
 .modil
 {
