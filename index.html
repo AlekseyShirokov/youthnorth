@@ -36,8 +36,7 @@
             <p class="text_regular text-center white">Регистрация для участников и экспертов </p>
             <div class="group">
                 <button class="btn btn_white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">Участник</button>
-                <button class="btn btn_white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Эксперт</button>
-                <button class="btn btn_white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Волонтёр</button>
+                <button class="btn btn_white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">Волонтёр</button>
             </div>
         </div>
         <div class="block_blue d-flex flex-column justify-content-center align-items-center">
@@ -45,7 +44,7 @@
             <div class="block d-flex flex-column justify-content-center align-items-center">
                 <p class="text_main text-center blue">Для СМИ</p>
             <p class="text_regular text-center blue">Регистрация для СМИ </p>
-            <button class="btn btn_blue" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Зарегистрироваться</button>
+            <button class="btn btn_blue" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5">Зарегистрироваться</button>
             </div>
         </div>
         <div class="block_white d-flex flex-column justify-content-center align-items-center">
@@ -63,7 +62,7 @@
                     <img class="foto_block" src="./media/CtsrA9SuhO0.jpg" alt="">
                 </div>
             </div>          
-            <p class="text_regular text-center white">выставка </p>
+            <button class="btn btn_white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalv">Принять участие</button>
         </div>
         <div class="block_blue d-flex flex-column justify-content-center align-items-center">
             <p class="text_main text-center blue">Контакты</p>
@@ -81,6 +80,19 @@
                 <div class="modal-body">
                     <p class="text_regular_modil text-center white modil">фото выставка </p>
                     <p class="text_regular_modil text-center white modil">фото выставка </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalv" tabindex="-1" aria-labelledby="exampleModalLabelv" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <h1 class="text_main white text-center" id="exampleModalLabelv">ART-СЕВЕР</h1>
+                <div class="modal-body">
+                    <p class="text_regular_modil white modil">ART-СЕВЕР - выставка творческих работ, которые будут представлены в первый день форума. К участию приглашаются фотографы, художники, мастера которые готовы поделиться своими работами для участников и гостей форума.</p>
+                    <p class="text_regular_modil white modil">Тематика: родной край и родная культура, выражение любви к северной природе и национальным традициям.</p> 
+                    <p class="text_regular_modil white modil">Формат работ: работы принимаются в формате А3, А2 в электронном варианте на эл.почту forum_msever@mail.ru с подписью: ФИО/возраст, наименование работы, контактные данные.</p>
+                    <p class="text_regular_modil white modil">Все участники получат сертификаты об участии в конкурсе. </p>
                 </div>
               </div>
             </div>
@@ -208,6 +220,89 @@
                                     Норникель 
                                 </label>
                             </div>
+                        </div>
+                        <button type="submit" class="btn_white btn">Отправить</button>
+                      </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <h1 class="text_main white text-center" id="exampleModalLabel4">ВОЛОНТЁР</h1>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">ФИО</label>
+                            <input class="text_regular_modil form-control" type="text" placeholder="Иванов Иван Иванович" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">Возраст</label>
+                            <input class="form-control" type="number" placeholder="23" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">Место учёбы/работы</label>
+                            <input class="form-control" type="text" placeholder="СибГУ им.Решетнёва" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="text_regular_modil form-label">Электронная почта</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">Опыт в волонтерской деятельности (перечислите мероприятия)</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="text_regular_modil form-label">Посещали ли ранее форум «Молодежь Севера»</label>
+                            <select class="form-select text_regular_modil" aria-label="Default select example">
+                                <option selected>Выберете один из вариантов</option>
+                                <option value="1">Да</option>
+                                <option value="2">Нет</option>
+                              </select>
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="text_regular_modil form-label">Выберите площадку для работы на форуме:</label>
+                            <select class="form-select text_regular_modil" aria-label="Default select example">
+                                <option selected>Выберете один из вариантов</option>
+                                <option value="1">Регистрация участников</option>
+                                <option value="2">Выставка «ART-Север»</option>
+                                <option value="3">Кейс-чемпионат</option>
+                                <option value="4">Проектная деятельность</option>
+                                <option value="5">Молодежь в политике</option>
+                                <option value="6">Молодежь в регионах</option>
+                                <option value="7">Профориентация</option>
+                                <option value="8">Норникель </option>
+                                <option value="9">Работа в зале с участниками (на пленарных заседаний) </option>
+                              </select>
+                        </div>
+                        <button type="submit" class="btn_white btn">Отправить</button>
+                      </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <h1 class="text_main white text-center" id="exampleModalLabel5">СМИ</h1>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">Наименование издания / TV канала</label>
+                            <input class="form-control" type="text" placeholder="" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">ФИО представителя</label>
+                            <input class="text_regular_modil form-control" type="text" placeholder="Иванов Иван Иванович" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="text_regular_modil form-label">Номер телефона</label>
+                            <input class="form-control" type="text" placeholder="8(999)999-99-99" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="text_regular_modil form-label">Электронная почта</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <button type="submit" class="btn_white btn">Отправить</button>
                       </form>
